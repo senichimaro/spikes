@@ -1,0 +1,9 @@
+.my-node-appear {
+  opacity: 0;
+  transform: scale(1.1);
+}
+.my-node-appear-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
